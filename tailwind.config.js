@@ -11,12 +11,12 @@ module.exports = {
       backgroundImage:{
         bgHeader:"linear-gradient(to bottom, rgb(0,0,0), rgba(0,0,0,0.1)), url('/img/header.jpg')",
         bgFooter:"url('/img/footer.jpg')",
-        bgCard1:"linear-gradient(to bottom, rgb(0,0,0), rgba(0,0,0,0.1)), url('/img/1.png')",
-        bgCard2:"linear-gradient(to bottom, rgb(0,0,0), rgba(0,0,0,0.1)), url('/img/2.png')",
-        bgCard3:"linear-gradient(to bottom, rgb(0,0,0), rgba(0,0,0,0.1)), url('/img/3.png')",
-        bgCard3:"linear-gradient(to bottom, rgb(0,0,0), rgba(0,0,0,0.1)), url('/img/4.png')",
+        bgCard1:"url('/img/1.png')",
+        bgCard2:"url('/img/2.png')",
+        bgCard3:"url('/img/3.png')",
+        bgCard3:"url('/img/4.png')"
 
-      },
+      }
     }
   },
   plugins: [],
