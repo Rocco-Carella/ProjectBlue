@@ -598,6 +598,14 @@ video {
   inset: 0px;
 }
 
+.inset-1 {
+  inset: 0.25rem;
+}
+
+.inset-12 {
+  inset: 3rem;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -608,6 +616,14 @@ video {
 
 .bottom-3 {
   bottom: 0.75rem;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
 }
 
 .end-0 {
@@ -676,6 +692,14 @@ video {
 
 .top-11 {
   top: 2.75rem;
+}
+
+.top-9 {
+  top: 2.25rem;
+}
+
+.bottom-2 {
+  bottom: 0.5rem;
 }
 
 .col-span-2 {
@@ -862,6 +886,10 @@ video {
   margin-top: 12rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -880,6 +908,26 @@ video {
 
 .mt-96 {
   margin-top: 24rem;
+}
+
+.mt-72 {
+  margin-top: 18rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-36 {
+  margin-top: 9rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
 }
 
 .box-border {
@@ -920,6 +968,10 @@ video {
 
 .h-11 {
   height: 2.75rem;
+}
+
+.h-14 {
+  height: 3.5rem;
 }
 
 .h-16 {
@@ -968,6 +1020,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .min-h-0 {
@@ -1319,27 +1375,45 @@ video {
 }
 
 .bg-bgCard1 {
-  background-image: url('/img/1.png');
+  background-image: linear-gradient(to bottom, rgb(0,0,0), rgba(0,0,0,0.1)),url('/img/1.png');
+}
+
+.bg-bgCard2 {
+  background-image: linear-gradient(to bottom, rgb(0,0,0), rgba(0,0,0,0.1)),url('/img/2.png');
+}
+
+.bg-bgCard3 {
+  background-image: linear-gradient(to bottom, rgb(0,0,0), rgba(0,0,0,0.1)),url('/img/3.png');
+}
+
+.bg-bgCard4 {
+  background-image: linear-gradient(to bottom, rgb(0,0,0), rgba(0,0,0,0.1)),url('/img/4.png');
 }
 
 .bg-bgFooter {
-  background-image: url('/img/footer.jpg');
+  background-image: linear-gradient(to top, rgb(0,0,0), rgba(0,0,0,0.1)),url('/img/footer.jpg');
 }
 
 .bg-bgHeader {
-  background-image: linear-gradient(to bottom, rgb(0,0,0), rgba(0,0,0,0.1)), url('/img/header.jpg');
+  background-image: linear-gradient(to bottom,rgb(0,0,0), rgba(0,0,0,0.1)), url('/img/header.jpg');
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
-.bg-bgCard3 {
-  background-image: url('/img/4.png');
+.from-black {
+  --tw-gradient-from: #000 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.bg-bgCard2 {
-  background-image: url('/img/2.png');
+.to-transparent {
+  --tw-gradient-to: transparent var(--tw-gradient-to-position);
 }
 
 .bg-contain {
@@ -1504,6 +1578,14 @@ video {
 
 .ps-3 {
   padding-inline-start: 0.75rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
 }
 
 .text-center {
